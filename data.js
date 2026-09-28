@@ -5,33 +5,35 @@
 const portfolio = {
     // Personal information object
     owner: {
-        name: "Your Name Here",        // TODO: Add your name
-        title: "Your Title Here",      // TODO: Add your professional title
-        email: "your.email@example.com", // TODO: Add your email
-        location: "Your City, State",  // TODO: Add your location
-        bio: "Write a brief description about yourself here. What are you passionate about? What are your goals?" // TODO: Add your bio
+        name: "Chuol R. Deng",        // TODO: Add your name
+        title: "Mr.",      // TODO: Add your professional title
+        email: "chuolrdeng@berkeley.edu", // TODO: Add your email
+        location: "Berkeley, CA",  // TODO: Add your location
+        bio: "I am a passionate web developer with a strong foundation in JavaScript and a keen interest in creating interactive user experiences." // TODO: Add your bio
     },
     
     // Skills as an array
     skills: [
-        "Add your first skill here",   // TODO: Replace with your actual skills
-        "Add your second skill here",  // TODO: Add more skills
-        "Add your third skill here"    // TODO: Students should have at least 5 skills
+        "AI and Data Analystics",   // TODO: Replace with your actual skills
+        "Frontend and Backend Development",  // TODO: Add more skills
+        "Database Design and Management",    // TODO: Students should have at least 5 skills
+        "User Experience (UX) Design",       // TODO: Add more skills
+        "Version Control with Git",          // TODO: Add more skills
         // TODO: Add more skills - aim for 5-7 skills total
     ],
     
     // Projects as array of objects
     projects: [
         {
-            title: "Your First Project",
-            description: "Describe what this project does and why it's interesting",
+            title: "Naath AI Project", // TODO: Add your project title
+            description: "Building an LLm model for the Nuer language to help preserve and promote the language.", // TODO: Add your project description
             technologies: ["HTML", "CSS"], // Array of technologies used
             completionDate: "2025-08-15",   // When you completed it
             featured: true                   // Is this a featured project?
         },
         {
-            title: "Your Second Project", 
-            description: "Another project description here",
+            title: "AI and Data Consluting Project", 
+            description: "I helped a client analyze their data and create a predictive model to improve their business decisions.",
             technologies: ["HTML", "CSS", "JavaScript"],
             completionDate: "2025-09-01",
             featured: false
@@ -41,7 +43,7 @@ const portfolio = {
     
     // Contact and availability information
     availability: {
-        freelance: false,    // TODO: Set to true if available for freelance work
+        freelance: true,    // TODO: Set to true if available for freelance work
         fullTime: false,     // TODO: Set to true if seeking full-time position
         partTime: true       // TODO: Set to true if available for part-time work
     }
