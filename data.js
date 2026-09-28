@@ -6,7 +6,7 @@ const portfolio = {
     // Personal information object
     owner: {
         name: "Chuol R. Deng",        // TODO: Add your name
-        title: "Mr.",      // TODO: Add your professional title
+        title: "AI and Systems Engineer.",      // TODO: Add your professional title
         email: "chuolrdeng@berkeley.edu", // TODO: Add your email
         location: "Berkeley, CA",  // TODO: Add your location
         bio: "I am a passionate web developer with a strong foundation in JavaScript and a keen interest in creating interactive user experiences." // TODO: Add your bio
